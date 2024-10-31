@@ -2,9 +2,8 @@ import re
 
 true_email = "example@test.com"
 false_email = "example@com"
-cool = "telltaleacc@gmail.com"
 
-emails = [true_email, false_email, cool]
+emails = [true_email, false_email]
 
 pattern = r"^\w+\@\D+\.\D{2,6}$"
 
