@@ -18,9 +18,9 @@ for i in range(lenght):
     elem2 = random.randint(-50, 50)
     L_2.append(elem2)
     if elem1 == elem2:
-        # добовляем в список все одинаковые числа
+        # добавляем в список все одинаковые числа
         L_all_ob.append(elem1, elem2)
-        # доюовляем в список все одинаковые числа но без повторений
+        # добавляем в список все одинаковые числа но без повторений
         L_all_bezpov.append(elem1)
     if elem1 != elem2:
         L_all_unik.append(elem1)
